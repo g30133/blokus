@@ -1,0 +1,26 @@
+.cell {
+    background-color: snow;
+    text-align: center;
+    font-size: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.r {
+    background-color: red;
+}
+
+.g {
+    background-color: green;
+}
+
+.b {
+    background-color: blue;
+}
+
+.y {
+    background-color: yellow;
+}
