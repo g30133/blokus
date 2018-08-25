@@ -11,8 +11,11 @@
 }
 
 .buttons {
+  width: 100%;
+  
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .rotate {
@@ -23,6 +26,17 @@
   justify-content: center;
   background-color: var(--secondary-color);
   border-radius: 10px;
+}
+
+.rotate:hover, .flip:hover {
+  animation: blacken 0.25s forwards;
+}
+
+@keyframes blacken {
+  to {
+    background-color: black;
+    color: white;
+  }
 }
 
 .flip {

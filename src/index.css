@@ -1,6 +1,16 @@
 :root {
   --primary-color: lightgreen;
   --secondary-color: lightblue;
+
+  --board-num-rows: 20;
+  --board-num-cols: 20;
+  --board-cell-size: calc(5vw - 2px);
+  --board-gap: 2px;
+
+  --arsenal-num-rows: 12;
+  --arsenal-num-cols: 40;
+  --arsenal-cell-size: calc(2.5vw - 1px);
+  --arsenal-gap: 1px;
 }
 
 body {

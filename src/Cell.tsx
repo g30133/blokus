@@ -20,8 +20,8 @@ class Cell extends React.Component<CellProps> {
                 className={'cell ' + this.props.val}
                 onPointerDown={this.onCellDown}
                 onPointerUp={this.onCellUp}
-                onTouchStart={this.onCellDown}
-                onTouchEnd={this.onCellUp}
+                //onTouchStart={this.onCellDown}
+                //onTouchEnd={this.onCellUp}
             >
             </div>
         )
