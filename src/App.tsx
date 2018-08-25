@@ -158,7 +158,7 @@ class App extends React.Component<any, AppState> {
       console.log('tried to use invaild piece')
       return
     }
-    if (src === 'board') {
+    if (src === 'board' && this.state.mode !== 'switching') {
       this.setState((prevState) => {
         let updatedMode = prevState.mode
         let updatedBoard = Array.from(prevState.board)
